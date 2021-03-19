@@ -1,0 +1,23 @@
+{
+  "format": {
+    "request": "pinerest.org+flat",
+    "response": "pinerest.org+flat"
+  },
+  "id": "e466e02f-a07b-48ac-8473-2a8e1a4e65fd",
+  "requestId": "pinerest.org/9c8af85c-8ffa-445e-9355-395cece88aa9",
+  "hpiType": "P",
+  "status": 0,
+  "log": [
+    {
+      "level": "debug",
+      "timestamp": "2020-11-12T10:10:10UTC",
+      "message": "bhai service request 'pinerest.org/9c8af85c-8ffa-445e-9355-395cece88aa9' received"
+    },
+    {
+      "level": "info",
+      "timestamp": "2020-11-12T10:10:11UTC",
+      "message": "bhai service response 'e466e02f-a07b-48ac-8473-2a8e1a4e65fd' sent."
+    }
+  ],
+  "score": 80.2
+}

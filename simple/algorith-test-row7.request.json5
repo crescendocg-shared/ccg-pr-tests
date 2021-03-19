@@ -1,0 +1,145 @@
+// algorith-test-row7.request.json5, transcribed 'Algorith Test' row 7
+// See ./README.md#lore for the relevant background, conventions and notation in the comments below.
+
+{
+    // *** Request ***
+    // required, caseful strings
+    format: { request: "pinerest.org+flat", response: "pinerest.org+flat", },
+
+    // required caseful string && id. Usually a uuid or guid.
+    id: "b36cbb4a-5538-4f9f-aadd-74ca9fc0257d",
+
+    // required, caseless string && map,
+    //    "P" -> "personal",
+    //    "U" -> "unit"
+    hpiType: "P", 
+
+
+
+    // *** Organization ***
+    // required caseful string && preregistered label. 
+    organization: "pinerest.org",
+
+    // optional caseful string
+    // facility: "",
+
+    // optional caseful string
+    // unit: "",
+
+
+    // *** Stay ***
+    // required string && iso8601 timestamp with minute percision without timezone,
+    //   computes work shift
+    runDate: "2019-11-22T07:21",
+
+    // optional string && iso8601 date
+    // hospitalAdmissionDate: "2019-01-01", 
+
+    // optional string && iso8601 date
+    // hospitalDischargeDate: "2019-03-01",
+
+
+
+
+    // *** Patient ***
+    // optional string
+    patientMRN: "435002", 
+
+    // required string && iso8601 date, used to compute age of patient.
+    patientBirthdate: "1996-01-01", 
+
+    // required caseless string && map:
+    //   "white" <=> "1",
+    //   "black" = "2",
+    //   "american_indian" <=> "3",
+    //   "other" <=> "6",
+    //   "decline" <=> "7",
+    //   "unknown" <=> "8",
+    //   "native_hawaian" <=> "15",
+    //   "asian" <=> "19"
+    patientRace: "white",
+
+    // required caseless string && map
+    //   "M" <-> "1",
+    //   "F" <-> "2",
+    //   "U" <-> "3".
+    // Only the first character is matched.
+    patientGender: "male", 
+
+    // optional string && registered name
+    // healthPlan: "Wellcare"
+
+
+    // *** Encounter ***
+    // optional string && truthy, default null 
+    newToUnit: "0", 
+
+    // optional string && truthy, default null
+    // involuntaryAdmission: "false", 
+
+    // optional string && truthy, default null
+    fallRisk: "false", 
+
+    // required string icd10 designator, icd10 => drg
+    encounterDiagnosis: "F05", // => drg 880 
+
+    // required string icd10 designator
+    encounterComorbidity: "R69", // => "Illness, unspecified"
+
+    // required mapping, currently unavailable
+    // unitType: 1, 
+
+
+
+
+    // *** Columbia ***
+    // Columbia questionaire answers, nine total, all string && truthy.
+    // Unless *all* values are explicitly stated, the Columbia subscore is *not* computed.
+    wishToBeDead: "true",
+    suicidalThoughts: "false",
+    suicidalIdeationWithoutIntent: "true",
+    suicidalIdeationIntent: "true",
+    suicidalIdeationPlan: "false",
+    preparatoryActs: "false",
+    abortedAttempt: "false",
+    interruptedAttempt: "true",
+    actualAttempt: "false",
+    // completedSuicide: "false", // never sent
+
+
+
+    // *** Broset ***
+    // Broset questionaire answers, six total, all string && truthy, default is null.
+    // confused: "false",
+    // irritable: "false",
+    // boisterous: "false",
+    // physicallyThreatening: "false",
+    // verballyThreatening: "false",
+    // attackingObjects: "false",
+
+
+    // *** Visits ***
+    // Visits required, values int >= 0, default null.
+    mhVisits: 0,
+    erVisits: 0,
+    aodVisits: 0,
+    medicalVisits: 2,
+
+
+    // *** PHQ9 ***
+    // values int >=0, optional, default null.
+    phq9FirstScore: 5,
+    phq9RecentScore: 7,
+
+
+    // *** Intervention ***
+    // required caseless string && map,
+    //    "1" <-> "minimal",
+    //    "2" <-> "average",
+    //    "3" <-> "above_average",
+    //    "4" <-> "almost_constant"
+    currentIntervention: "minimal", 
+    futureIntervention: "minimal",
+}
+
+// eof

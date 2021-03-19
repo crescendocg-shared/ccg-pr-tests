@@ -1,0 +1,12 @@
+{
+  "format": {
+    "request": "pinerest.org+flat",
+    "response": "pinerest.org+flat"
+  },
+  "id": "31eb0507-d66d-4692-a928-0fcdf68fdcff",
+  "requestId": "pinerest.org/31eb0507-d66d-4692-a928-0fcdf68fdcff",
+  "hpiType": "P",
+  "status": 0,
+  "log": [],
+  "score": 45.4
+}

@@ -1,0 +1,71 @@
+// algorith-test-row10.request.json5, transcribed 'Algorith Test' row 10 
+// See ./README.md#lore for the relevant background, conventions and notation in the comments below.
+// See ./algorith-test-row7.request.json5 for field value comments.
+
+{
+    // *** Request ***
+    format: { request: "pinerest.org+flat", response: "pinerest.org+flat", },
+    id: "31eb0507-d66d-4692-a928-0fcdf68fdcff",
+    hpiType: "P",
+
+    
+    // *** Organization ***
+    organization: "pinerest.org",
+
+
+    // *** Patient ***
+    patientMRN: "435003",
+    patientBirthdate: "1995-01-01", 
+    patientRace: "8", // "unknown"
+    patientGender: "3", // "unknown"
+
+
+    // *** Stay ***
+    runDate: "2019-11-22T12:21",
+
+
+    // *** Encounter ***
+    encounterDiagnosis: "F40.00", // => drg 884
+    encounterComorbidity: "R69", // "Illness, unspecified"
+
+
+    // *** Columbia ***
+    wishToBeDead: "0",
+    suicidalThoughts: "1",
+    suicidalIdeationWithoutIntent: "1",
+    suicidalIdeationIntent: "0",
+    suicidalIdeationPlan: "1",
+    preparatoryActs: "1",
+    abortedAttempt: "1",
+    interruptedAttempt: "0",
+    actualAttempt: "1",
+    // completedSuicide: false, // never sent
+
+
+    // *** Broset ***
+    // confused: "false",
+    // irritable: "false",
+    // boisterous: "false",
+    // physicallyThreatening: "false",
+    // verballyThreatening: "false",
+    // attackingObjects: "false",
+
+
+    // *** Visits ***
+    mhVisits: 0,
+    erVisits: 1,
+    aodVisits: 0,
+    medicalVisits: 1,
+
+
+    // *** PHQ9 ***
+    phq9FirstScore: 5,
+    phq9RecentScore: 7,
+
+
+    // *** Intervention ***
+    currentIntervention: "1",
+    futureIntervention: "1",
+}
+
+// eof

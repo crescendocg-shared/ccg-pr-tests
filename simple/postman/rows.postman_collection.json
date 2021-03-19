@@ -1,0 +1,344 @@
+{
+	"info": {
+		"_postman_id": "1e45ea2f-5f9d-440a-841b-12a6837fc9df",
+		"name": "rows",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "template",
+			"item": [
+				{
+					"name": "request_template",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"format\": {\n    \"request\": \"pinerest.org+flat\",\n    \"response\": \"pinerest.org+flat\"\n  },\n  \"id\": \"b36cbb4a-5538-4f9f-aadd-74ca9fc0257d\",\n  \"organization\": \"pinerest.org\",\n  \"runDate\": \"2019-11-22T07:21-05:00\",\n  \"hpiType\": \"P\",\n  \"patientMRN\": \"435002\",\n  \"patientBirthdate\": \"1996-01-01\",\n  \"patientRace\": \"white\",\n  \"patientGender\": \"male\",\n  \"newToUnit\": \"0\",\n  \"fallRisk\": \"false\",\n  \"encounterDiagnosis\": \"F05\",\n  \"encounterComorbidity\": \"R69\",\n  \"wishToBeDead\": \"true\",\n  \"suicidalThoughts\": \"false\",\n  \"suicidalIdeationWithoutIntent\": \"true\",\n  \"suicidalIdeationIntent\": \"true\",\n  \"suicidalIdeationPlan\": \"false\",\n  \"preparatoryActs\": \"false\",\n  \"abortedAttempt\": \"false\",\n  \"interruptedAttempt\": \"true\",\n  \"actualAttempt\": \"false\",\n  \"mhVisits\": 0,\n  \"erVisits\": 0,\n  \"aodVisits\": 0,\n  \"medicalVisits\": 2,\n  \"phq9FirstScore\": 5,\n  \"phq9RecentScore\": 7,\n  \"currentIntervention\": \"minimal\",\n  \"futureIntervention\": \"minimal\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://ccgvn0fevm0.eastus.cloudapp.azure.com:5000/Scorer",
+							"protocol": "http",
+							"host": [
+								"ccgvn0fevm0",
+								"eastus",
+								"cloudapp",
+								"azure",
+								"com"
+							],
+							"port": "5000",
+							"path": [
+								"Scorer"
+							]
+						},
+						"description": "See the generated [schema](http://ccgvn0fevm0.eastus.cloudapp.azure.com:5000/swagger/index.html), in particular `ScoreData`, for formulating an `application/json` payload (below).\n\nThe current payload (below) is a template. This case is intended to be duplicated, renamed and modified. See the postman documentation for more details."
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "row7",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"format\": {\n    \"request\": \"pinerest.org+flat\",\n    \"response\": \"pinerest.org+flat\"\n  },\n  \"id\": \"b36cbb4a-5538-4f9f-aadd-74ca9fc0257d\",\n  \"organization\": \"pinerest.org\",\n  \"runDate\": \"2019-11-22T07:21-05:00\",\n  \"hpiType\": \"P\",\n  \"patientMRN\": \"435002\",\n  \"patientBirthdate\": \"1996-01-01\",\n  \"patientRace\": \"white\",\n  \"patientGender\": \"male\",\n  \"newToUnit\": \"0\",\n  \"fallRisk\": \"false\",\n  \"encounterDiagnosis\": \"F05\",\n  \"encounterComorbidity\": \"R69\",\n  \"wishToBeDead\": \"true\",\n  \"suicidalThoughts\": \"false\",\n  \"suicidalIdeationWithoutIntent\": \"true\",\n  \"suicidalIdeationIntent\": \"true\",\n  \"suicidalIdeationPlan\": \"false\",\n  \"preparatoryActs\": \"false\",\n  \"abortedAttempt\": \"false\",\n  \"interruptedAttempt\": \"true\",\n  \"actualAttempt\": \"false\",\n  \"mhVisits\": 0,\n  \"erVisits\": 0,\n  \"aodVisits\": 0,\n  \"medicalVisits\": 2,\n  \"phq9FirstScore\": 5,\n  \"phq9RecentScore\": 7,\n  \"currentIntervention\": \"minimal\",\n  \"futureIntervention\": \"minimal\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://ccgvn0fevm0.eastus.cloudapp.azure.com:5000/Scorer",
+					"protocol": "http",
+					"host": [
+						"ccgvn0fevm0",
+						"eastus",
+						"cloudapp",
+						"azure",
+						"com"
+					],
+					"port": "5000",
+					"path": [
+						"Scorer"
+					]
+				},
+				"description": "See the generated [schema](http://ccgvn0fevm0.eastus.cloudapp.azure.com:5000/swagger/index.html), in particular `ScoreData`, for formulating an `application/json` payload (below)."
+			},
+			"response": []
+		},
+		{
+			"name": "row8",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"format\": {\n    \"request\": \"pinerest.org+flat\",\n    \"response\": \"pinerest.org+flat\"\n  },\n  \"id\": \"31eb0507-d66d-4692-a928-0fcdf68fdcff\",\n  \"hpiType\": \"P\",\n  \"organization\": \"pinerest.org\",\n  \"patientMRN\": \"435003\",\n  \"patientBirthdate\": \"1995-01-01\",\n  \"patientRace\": \"8\",\n  \"patientGender\": \"3\",\n  \"runDate\": \"2019-11-22T12:21\",\n  \"encounterDiagnosis\": \"F40.00\",\n  \"encounterComorbidity\": \"R69\",\n  \"wishToBeDead\": \"0\",\n  \"suicidalThoughts\": \"1\",\n  \"suicidalIdeationWithoutIntent\": \"1\",\n  \"suicidalIdeationIntent\": \"0\",\n  \"suicidalIdeationPlan\": \"1\",\n  \"preparatoryActs\": \"1\",\n  \"abortedAttempt\": \"1\",\n  \"interruptedAttempt\": \"0\",\n  \"actualAttempt\": \"1\",\n  \"mhVisits\": 0,\n  \"erVisits\": 1,\n  \"aodVisits\": 0,\n  \"medicalVisits\": 1,\n  \"phq9FirstScore\": 5,\n  \"phq9RecentScore\": 7,\n  \"currentIntervention\": \"1\",\n  \"futureIntervention\": \"1\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://ccgvn0fevm0.eastus.cloudapp.azure.com:5000/Scorer",
+					"protocol": "http",
+					"host": [
+						"ccgvn0fevm0",
+						"eastus",
+						"cloudapp",
+						"azure",
+						"com"
+					],
+					"port": "5000",
+					"path": [
+						"Scorer"
+					]
+				},
+				"description": "See row7 for orientation."
+			},
+			"response": []
+		},
+		{
+			"name": "row9",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"format\": {\n    \"request\": \"pinerest.org+flat\",\n    \"response\": \"pinerest.org+flat\"\n  },\n  \"id\": \"725bbc84-861d-4c63-9d80-53470b2fb02e\",\n  \"hpiType\": \"P\",\n  \"organization\": \"pinerest.org\",\n  \"patientMRN\": \"435004\",\n  \"patientBirthdate\": \"1993-01-01\",\n  \"patientRace\": \"unknown\",\n  \"patientGender\": \"unknown\",\n  \"runDate\": \"2019-11-22T07:21\",\n  \"newToUnit\": \"true\",\n  \"fallRisk\": \"true\",\n  \"encounterDiagnosis\": \"F40.220\",\n  \"encounterComorbidity\": \"R69\",\n  \"wishToBeDead\": \"false\",\n  \"suicidalIdeationWithoutIntent\": \"1\",\n  \"suicidalIdeationIntent\": \"0\",\n  \"preparatoryActs\": \"1\",\n  \"abortedAttempt\": \"1\",\n  \"interruptedAttempt\": \"0\",\n  \"mhVisits\": 0,\n  \"medicalVisits\": 1,\n  \"currentIntervention\": \"above_average\",\n  \"futureIntervention\": \"minimal\"\n}\n\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://ccgvn0fevm0.eastus.cloudapp.azure.com:5000/Scorer",
+					"protocol": "http",
+					"host": [
+						"ccgvn0fevm0",
+						"eastus",
+						"cloudapp",
+						"azure",
+						"com"
+					],
+					"port": "5000",
+					"path": [
+						"Scorer"
+					]
+				},
+				"description": "See row7 for orientation."
+			},
+			"response": []
+		},
+		{
+			"name": "row10",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"format\": {\n    \"request\": \"pinerest.org+flat\",\n    \"response\": \"pinerest.org+flat\"\n  },\n  \"id\": \"b36cbb4a-5538-4f9f-aadd-74ca9fc0257d\",\n  \"hpiType\": \"P\",\n  \"organization\": \"pinerest.org\",\n  \"patientMRN\": \"435005\",\n  \"patientBirthdate\": \"1990-12-25\",\n  \"patientRace\": \"8\",\n  \"patientGender\": \"2\",\n  \"runDate\": \"2019-11-22T23:21\",\n  \"newToUnit\": \"yes\",\n  \"encounterDiagnosis\": \"F84.0\",\n  \"encounterComorbidity\": \"R69\",\n  \"wishToBeDead\": \"true\",\n  \"suicidalThoughts\": \"false\",\n  \"suicidalIdeationWithoutIntent\": \"false\",\n  \"suicidalIdeationIntent\": \"true\",\n  \"suicidalIdeationPlan\": \"false\",\n  \"preparatoryActs\": \"false\",\n  \"abortedAttempt\": \"false\",\n  \"interruptedAttempt\": \"true\",\n  \"actualAttempt\": \"false\",\n  \"mhVisits\": 1,\n  \"erVisits\": 1,\n  \"currentIntervention\": \"1\",\n  \"futureIntervention\": \"1\"\n}\n\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://ccgvn0fevm0.eastus.cloudapp.azure.com:5000/Scorer",
+					"protocol": "http",
+					"host": [
+						"ccgvn0fevm0",
+						"eastus",
+						"cloudapp",
+						"azure",
+						"com"
+					],
+					"port": "5000",
+					"path": [
+						"Scorer"
+					]
+				},
+				"description": "See row7 for orientation."
+			},
+			"response": []
+		},
+		{
+			"name": "row11",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"format\": {\n    \"request\": \"pinerest.org+flat\",\n    \"response\": \"pinerest.org+flat\"\n  },\n  \"id\": \"52d05417-9e07-44d3-80cb-9aafed4e37cd\",\n  \"hpiType\": \"P\",\n  \"organization\": \"pinerest.org\",\n  \"patientMRN\": \"435007\",\n  \"patientBirthdate\": \"2000-10-31\",\n  \"patientRace\": \"8\",\n  \"patientGender\": \"1\",\n  \"runDate\": \"2019-11-25T13:01\",\n  \"encounterDiagnosis\": \"F06.33\",\n  \"encounterComorbidity\": \"R69\",\n  \"wishToBeDead\": \"1\",\n  \"suicidalThoughts\": \"1\",\n  \"suicidalIdeationWithoutIntent\": \"0\",\n  \"suicidalIdeationIntent\": \"1\",\n  \"suicidalIdeationPlan\": \"1\",\n  \"preparatoryActs\": \"0\",\n  \"abortedAttempt\": \"0\",\n  \"interruptedAttempt\": \"1\",\n  \"actualAttempt\": \"1\",\n  \"erVisits\": 1,\n  \"currentIntervention\": \"1\",\n  \"futureIntervention\": \"1\"\n}\n\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://ccgvn0fevm0.eastus.cloudapp.azure.com:5000/Scorer",
+					"protocol": "http",
+					"host": [
+						"ccgvn0fevm0",
+						"eastus",
+						"cloudapp",
+						"azure",
+						"com"
+					],
+					"port": "5000",
+					"path": [
+						"Scorer"
+					]
+				},
+				"description": "See row7 for orientation."
+			},
+			"response": []
+		},
+		{
+			"name": "row12",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"format\": {\n    \"request\": \"pinerest.org+flat\",\n    \"response\": \"pinerest.org+flat\"\n  },\n  \"id\": \"b94dc56d-0a55-4e5c-81ea-6f4bc8f6ad26\",\n  \"hpiType\": \"P\",\n  \"organization\": \"pinerest.org\",\n  \"patientMRN\": \"435008\",\n  \"patientBirthdate\": \"1958-07-10\",\n  \"patientRace\": \"8\",\n  \"patientGender\": \"1\",\n  \"runDate\": \"2019-11-25T07:21\",\n  \"newToUnit\": \"1\",\n  \"encounterDiagnosis\": \"F44.2\",\n  \"encounterComorbidity\": \"R69\",\n  \"currentIntervention\": \"minimal\",\n  \"futureIntervention\": \"minimal\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://ccgvn0fevm0.eastus.cloudapp.azure.com:5000/Scorer",
+					"protocol": "http",
+					"host": [
+						"ccgvn0fevm0",
+						"eastus",
+						"cloudapp",
+						"azure",
+						"com"
+					],
+					"port": "5000",
+					"path": [
+						"Scorer"
+					]
+				},
+				"description": "See row7 for orientation."
+			},
+			"response": []
+		},
+		{
+			"name": "row13",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"format\": {\n    \"request\": \"pinerest.org+flat\",\n    \"response\": \"pinerest.org+flat\"\n  },\n  \"id\": \"1ace5fec-9f0f-41c1-a7ae-46e610b40bba\",\n  \"hpiType\": \"P\",\n  \"organization\": \"pinerest.org\",\n  \"patientMRN\": \"435009\",\n  \"patientBirthdate\": \"1910-01-01\",\n  \"patientRace\": \"8\",\n  \"patientGender\": \"1\",\n  \"runDate\": \"2019-11-25T12:02\",\n  \"encounterDiagnosis\": \"F98.21\",\n  \"encounterComorbidity\": \"R69\",\n  \"suicidalIdeationPlan\": \"1\",\n  \"actualAttempt\": \"1\",\n  \"currentIntervention\": \"1\",\n  \"futureIntervention\": \"2\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://ccgvn0fevm0.eastus.cloudapp.azure.com:5000/Scorer",
+					"protocol": "http",
+					"host": [
+						"ccgvn0fevm0",
+						"eastus",
+						"cloudapp",
+						"azure",
+						"com"
+					],
+					"port": "5000",
+					"path": [
+						"Scorer"
+					]
+				},
+				"description": "See row7 for orientation."
+			},
+			"response": []
+		},
+		{
+			"name": "row14",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"format\": {\n    \"request\": \"pinerest.org+flat\",\n    \"response\": \"pinerest.org+flat\"\n  },\n  \"id\": \"c9a98ebf-d46c-48b9-a18f-15f5d4acd776\",\n  \"hpiType\": \"P\",\n  \"organization\": \"pinerest.org\",\n  \"patientMRN\": \"435002\",\n  \"patientBirthdate\": \"1996-01-01\",\n  \"patientRace\": \"8\",\n  \"patientGender\": \"1\",\n  \"runDate\": \"2019-11-22T07:21\",\n  \"encounterDiagnosis\": \"F05\",\n  \"encounterComorbidity\": \"R69\",\n  \"wishToBeDead\": \"true\",\n  \"suicidalThoughts\": \"false\",\n  \"suicidalIdeationWithoutIntent\": \"true\",\n  \"suicidalIdeationIntent\": \"true\",\n  \"suicidalIdeationPlan\": \"false\",\n  \"preparatoryActs\": \"true\",\n  \"abortedAttempt\": \"true\",\n  \"interruptedAttempt\": \"true\",\n  \"actualAttempt\": \"false\",\n  \"medicalVisits\": 2,\n  \"phq9FirstScore\": 5,\n  \"phq9RecentScore\": 7,\n  \"currentIntervention\": \"1\",\n  \"futureIntervention\": \"1\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://ccgvn0fevm0.eastus.cloudapp.azure.com:5000/Scorer",
+					"protocol": "http",
+					"host": [
+						"ccgvn0fevm0",
+						"eastus",
+						"cloudapp",
+						"azure",
+						"com"
+					],
+					"port": "5000",
+					"path": [
+						"Scorer"
+					]
+				},
+				"description": "See row7 for orientation."
+			},
+			"response": []
+		},
+		{
+			"name": "row15",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"format\": {\n    \"request\": \"pinerest.org+flat\",\n    \"response\": \"pinerest.org+flat\"\n  },\n  \"id\": \"9c8af85c-8ffa-445e-9355-395cece88aa9\",\n  \"hpiType\": \"P\",\n  \"organization\": \"pinerest.org\",\n  \"patientMRN\": \"435011\",\n  \"patientBirthdate\": \"1917-08-03\",\n  \"patientRace\": \"8\",\n  \"patientGender\": \"1\",\n  \"runDate\": \"2019-11-25T07:21\",\n  \"newToUnit\": \"1\",\n  \"encounterDiagnosis\": \"F63.3\",\n  \"encounterComorbidity\": \"R69\",\n  \"mhVisits\": 1,\n  \"erVisits\": 1,\n  \"aodVisits\": 3,\n  \"medicalVisits\": 1,\n  \"currentIntervention\": \"1\",\n  \"futureIntervention\": \"1\"\n}\n\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://ccgvn0fevm0.eastus.cloudapp.azure.com:5000/Scorer",
+					"protocol": "http",
+					"host": [
+						"ccgvn0fevm0",
+						"eastus",
+						"cloudapp",
+						"azure",
+						"com"
+					],
+					"port": "5000",
+					"path": [
+						"Scorer"
+					]
+				},
+				"description": "See row7 for orientation."
+			},
+			"response": []
+		}
+	]
+}

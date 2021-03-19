@@ -1,0 +1,42 @@
+// algorith-test-row7.response.json5, transcribed 'Algorith Test' cell bv7
+// See ./README.md#lore for the relevant background, conventions and notation in the comments below.
+
+{
+    // *** Response ***
+    // required literal
+    format: { request: "pinerest.org+flat", response: "pinerest.org+flat", },
+
+    // required string && uuid
+    id: "b69a0722-284c-4fe6-bcf4-08ae82d8474c",
+
+    // required string && uuid, the request for this response, echoed back
+    requestId: "pinerest.org/b36cbb4a-5538-4f9f-aadd-74ca9fc0257d", 
+
+    // required string, caseless string && map, echoed back:
+    //     "P" -> "personal,
+    //     "U" -> "unit"
+    hpiType: "P",
+
+
+    // *** Response Status ***
+    // required int >= 0, status > 0 means request failed
+    status: 0,
+    // optional list<object>, default [] if not present.
+    log: [
+      { level: "debug", 
+        timestamp: "2020-11-12T10:10:10UTC", 
+        message: "bhai service request 'pinerest.org/b36cbb4a-5538-4f9f-aadd-74ca9fc0257d' received", 
+      },
+      { level: "info", 
+        timestamp: "2020-11-12T10:10:11UTC", 
+        message: "bhai service response 'b69a0722-284c-4fe6-bcf4-08ae82d8474c' sent.", 
+      },
+    ],
+
+    // *** Score ***
+    score: 34.8,
+}
+
+// eof
+
+

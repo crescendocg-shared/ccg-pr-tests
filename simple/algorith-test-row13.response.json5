@@ -1,0 +1,27 @@
+// algorith-test-row13.response.json5, transcribed 'Algorith Test' cell bv13
+// See ./README.md#lore for the relevant background, conventions and notation in the comments below.
+// See ./algorith-test-row7.response.json5 for field value comments.
+
+{
+    // *** Response ***
+    format: { request: "pinerest.org+flat", response: "pinerest.org+flat", },
+    id: "eb6cd4b4-455b-4a47-a885-13659fe41801",
+    requestId: "pinerest.org/1ace5fec-9f0f-41c1-a7ae-46e610b40bba",
+    hpiType: "P", // "personal"
+
+
+    // *** Response Status ***
+    status: 0, 
+    log: [
+      { level: "debug", timestamp: "2020-11-12T10:10:10UTC", message: "bhai service request 'pinerest.org/1ace5fec-9f0f-41c1-a7ae-46e610b40bba' received", },
+      { level: "info", timestamp: "2020-11-12T10:10:11UTC", message: "bhai service response 'eb6cd4b4-455b-4a47-a885-13659fe41801' sent.", },
+    ],
+
+
+    // *** Score ***
+    score: 23.6,
+}
+
+// eof
+
+

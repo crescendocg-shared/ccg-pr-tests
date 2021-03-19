@@ -1,0 +1,33 @@
+{
+  "format": {
+    "request": "pinerest.org+flat",
+    "response": "pinerest.org+flat"
+  },
+  "id": "31eb0507-d66d-4692-a928-0fcdf68fdcff",
+  "hpiType": "P",
+  "organization": "pinerest.org",
+  "patientMRN": "435003",
+  "patientBirthdate": "1995-01-01",
+  "patientRace": "8",
+  "patientGender": "3",
+  "runDate": "2019-11-22T12:21",
+  "encounterDiagnosis": "F40.00",
+  "encounterComorbidity": "R69",
+  "wishToBeDead": "0",
+  "suicidalThoughts": "1",
+  "suicidalIdeationWithoutIntent": "1",
+  "suicidalIdeationIntent": "0",
+  "suicidalIdeationPlan": "1",
+  "preparatoryActs": "1",
+  "abortedAttempt": "1",
+  "interruptedAttempt": "0",
+  "actualAttempt": "1",
+  "mhVisits": 0,
+  "erVisits": 1,
+  "aodVisits": 0,
+  "medicalVisits": 1,
+  "phq9FirstScore": 5,
+  "phq9RecentScore": 7,
+  "currentIntervention": "1",
+  "futureIntervention": "1"
+}

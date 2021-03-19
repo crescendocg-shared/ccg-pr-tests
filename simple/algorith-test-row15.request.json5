@@ -1,0 +1,80 @@
+// algorith-test-row15.request.json5, transcribed 'Algorith Test' row 15, score 80.2
+// See ./README.md#lore for the relevant background, conventions and notation in the comments below.
+// See ./algorith-test-row7.request.json5 for field value comments.
+
+{
+    // *** Request ***
+    format: { request: "pinerest.org+flat", response: "pinerest.org+flat", },
+    id: "9c8af85c-8ffa-445e-9355-395cece88aa9",
+    hpiType: "P", // -> personal
+
+
+    // *** Organization ***
+    organization: "pinerest.org",
+    // facility: "",
+    // unit: "",
+
+
+    // *** Patient ***
+    patientMRN: "435011",
+    patientBirthdate: "1917-08-03",
+    patientRace: "8", // -> unknown
+    patientGender: "1", // -> male
+    // healthPlan: "Wellcare",
+
+
+    // *** Stay ***
+    runDate: "2019-11-25T07:21",
+    // hospitalAdmissionDate: "2019-01-01",
+    // hospitalDischargeDate: "2019-03-01",
+
+
+    // *** Encounter ***
+    newToUnit: "1",
+    // involuntaryAdmission: "false",
+    // fallRisk: "false",
+    encounterDiagnosis: "F63.3", // -> drg 884
+    encounterComorbidity: "R69", // "Illness, unspecified"
+    // unitType: 1,
+
+
+    // *** Columbia ***
+    // wishToBeDead: "false",
+    // suicidalThoughts: "false",
+    // suicidalIdeationWithoutIntent: "false",
+    // suicidalIdeationIntent: "false",
+    // suicidalIdeationPlan: "false",
+    // preparatoryActs: "false",
+    // abortedAttempt: "false",
+    // interruptedAttempt: "false",
+    // actualAttempt: "false",
+    // completedSuicide: "false", // never sent
+
+
+    // *** Broset ***
+    // confused: "false",
+    // irritable: "false",
+    // boisterous: "false",
+    // physicallyThreatening: "false",
+    // verballyThreatening: "false",
+    // attackingObjects: "false",
+
+
+    // *** Visits ***
+    mhVisits: 1,
+    erVisits: 1,
+    aodVisits: 3,
+    medicalVisits: 1,
+
+
+    // *** PHQ9 ***
+    // phq9FirstScore: 0,
+    // phq9RecentScore: 0,
+
+
+    // *** Intervention ***
+    currentIntervention: "1", // -> "minimal"
+    futureIntervention: "1", // -> "minimal"    
+}
+
+// eof

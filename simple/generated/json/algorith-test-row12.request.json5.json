@@ -1,0 +1,19 @@
+{
+  "format": {
+    "request": "pinerest.org+flat",
+    "response": "pinerest.org+flat"
+  },
+  "id": "b94dc56d-0a55-4e5c-81ea-6f4bc8f6ad26",
+  "hpiType": "P",
+  "organization": "pinerest.org",
+  "patientMRN": "435008",
+  "patientBirthdate": "1958-07-10",
+  "patientRace": "8",
+  "patientGender": "1",
+  "runDate": "2019-11-25T07:21",
+  "newToUnit": "1",
+  "encounterDiagnosis": "F44.2",
+  "encounterComorbidity": "R69",
+  "currentIntervention": "minimal",
+  "futureIntervention": "minimal"
+}

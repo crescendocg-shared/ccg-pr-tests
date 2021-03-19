@@ -1,0 +1,80 @@
+// algorith-test-row12.request.json5, transcribed 'Algorith Test' row 12
+// See ./README.md#lore for the relevant background, conventions and notation in the comments below.
+// See ./algorith-test-row7.request.json5 for field value comments.
+
+{
+    // *** Request ***
+    format: { request: "pinerest.org+flat", response: "pinerest.org+flat", },
+    id: "b94dc56d-0a55-4e5c-81ea-6f4bc8f6ad26",
+    hpiType: "P",
+
+
+    // *** Organization ***
+    organization: "pinerest.org",
+    // facility: "",
+    // unit: "",
+
+
+    // *** Patient ***
+    patientMRN: "435008",
+    patientBirthdate: "1958-07-10",
+    patientRace: "8", // -> unknown
+    patientGender: "1", // -> male
+    // healthPlan: "Wellcare",
+
+
+    // *** Stay ***
+    runDate: "2019-11-25T07:21",
+    // hospitalAdmissionDate: "2019-01-01",
+    // hospitalDischargeDate: "2019-03-01",
+
+
+    // *** Encounter ***
+    newToUnit: "1",
+    // involuntaryAdmission: "false",
+    // unitType: 1,
+   // fallRisk: "false",
+    encounterDiagnosis: "F44.2", // -> drg 880 
+    encounterComorbidity: "R69", // "Illness, unspecified"
+
+
+    // *** Columbia ***
+    // wishToBeDead: "false",
+    // suicidalThoughts: "false",
+    // suicidalIdeationWithoutIntent: "false",
+    // suicidalIdeationIntent: "false",
+    // suicidalIdeationPlan: "false",
+    // preparatoryActs: "false",
+    // abortedAttempt: "false",
+    // interruptedAttempt: "false",
+    // actualAttempt: "false",
+    // completedSuicide: "false", // never sent
+
+
+    // *** Broset ***
+    // confused: "false",
+    // irritable: "false",
+    // boisterous: "false",
+    // physicallyThreatening: "false",
+    // verballyThreatening: "false",
+    // attackingObjects: "false",
+
+
+    // *** Visits ***
+    // mhVisits: 0,
+    // erVisits: 0,
+    // aodVisits: 0,
+    // medicalVisits: 0,
+
+
+    // *** PHQ9 ***
+    // phq9FirstScore: 0,
+    // phq9RecentScore: 0,
+
+
+    // *** Intervention ***
+    currentIntervention: "minimal",
+    futureIntervention: "minimal",
+}
+
+// eof

@@ -1,0 +1,24 @@
+// algorith-test-row10.response.json5, transcribed 'Algorith Test' cell bv10
+// See ./README.md#lore for the relevant background, conventions and notation in the comments below.
+// See ./algorith-test-row7.response.json5 for field value comments.
+
+{
+    // *** Response ***
+    format: { request: "pinerest.org+flat", response: "pinerest.org+flat", },
+    id: "b69a0722-284c-4fe6-bcf4-08ae82d8474c",
+    requestId: "pinerest.org/b36cbb4a-5538-4f9f-aadd-74ca9fc0257d",
+    hpiType: "P", // "personal"
+
+
+    // *** Response Status ***
+    status: 0, // required int >= 0, status > 0 means request failed
+    log: [],
+
+
+    // *** Score ***
+    score: 100.0,
+}
+
+// eof
+
+
